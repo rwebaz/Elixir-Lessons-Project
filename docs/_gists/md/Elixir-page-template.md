@@ -6,7 +6,7 @@ hint: Place the intro paragraph ie.) the 'hypothesis' here ...
 repo: Elixir-Lessons-Project
 ver_date: 08-05-21
 navigation_weight: 8
-categories: template
+categories: page
 ---
 {% include toc.md %}
 
