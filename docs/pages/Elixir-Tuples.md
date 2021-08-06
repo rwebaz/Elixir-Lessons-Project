@@ -14,7 +14,7 @@ categories: template
 
 > **Hint**. {{ page.hint }}
 
-More to come ...
+More to come ... TEST
 
 ### Elixir Tuples
 
