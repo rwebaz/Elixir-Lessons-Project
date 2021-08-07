@@ -4,13 +4,13 @@ layout: default
 excerpt: Place the introducing line of text ie.) the 'tagline' here ...
 hint: Place the intro paragraph ie.) the 'hypothesis' here ...
 repo: Elixir-Lessons-Project
-ver_date: 08-05-21
+ver_date: 08-07-21
 navigation_weight: 8
 categories: page
 ---
 {% include toc.md %}
 
-## First Subtitle
+## Scope
 
 > **Hint**. {{ page.hint }}
 
@@ -18,7 +18,7 @@ More to come ...
 
 ## Jekyll Server
 
-**Note**. Detailed instructions on how to view this file locally using a Jekyll server are included in the accompanying `Gemfile` for the project.
+**Note**. Detailed instructions on how to view this `GitHub Pages` file locally using a Jekyll server are included in the accompanying `Gemfile` for the project.
 
 In short, type the following command statement from a Terminal window when set to the `docs` subdirectory.
 
@@ -26,7 +26,9 @@ In short, type the following command statement from a Terminal window when set t
 jekyll serve --watch --baseurl "" -o
 ```
 
-## Last Subtitle
+Your browser will pop up to display the page. Otherwise, an error message as to why not will appear.
+
+## Credits
 
 More to come ...
 
