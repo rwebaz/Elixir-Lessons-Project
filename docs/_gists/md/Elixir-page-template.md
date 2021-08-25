@@ -1,10 +1,10 @@
----
-title: Shell Gist
+--- 
+title: Elixir Gist
 layout: default
 excerpt: Place the introducing line of text ie.) the 'tagline' here ...
 hint: Place the intro paragraph ie.) the 'hypothesis' here ...
 repo: Elixir-Lessons-Project
-ver_date: 08-07-21
+ver_date: 08-24-21
 navigation_weight: 8
 categories: page
 ---
@@ -26,7 +26,7 @@ In short, type the following command statement from a Terminal window when set t
 jekyll serve --watch --baseurl "" -o
 ```
 
-Your browser will pop up to display the page. Otherwise, an error message as to why not will appear.
+**Note**. Your browser will pop up to display the page. Otherwise, an error message as to why not will appear.
 
 ## Credits
 

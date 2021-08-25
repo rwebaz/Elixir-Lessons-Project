@@ -4,11 +4,10 @@ layout: default
 excerpt: Elixir Lessons and Articles that display the interface between Ecto and MongoDB ...
 description_one: Issue, Rule, Analysis, Conclusion = IRAC
 repo: Elixir-Lessons-Project
-ver_date: 08-05-21
+ver_date: 08-25-21
 navigation_weight: 1
 categories: pages
 ---
-
 {% include toc.md %}
 
 {% include irac-issue-rule-analysis-conclusion.md %}
