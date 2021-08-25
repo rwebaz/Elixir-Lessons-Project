@@ -1,5 +1,5 @@
 # 
-# Gemfile ver 080721 Satellite Repo
+# Gemfile ver 082521 Satellite Repo
 # 
 # frozen_string_literal: true
 #
@@ -23,7 +23,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 # gem "rails"
 # 
 # Hello!
-#
+# 
 # This is where you manage which version of the 'Jekyll server' is used to run your GitHub Pages repo.
 #
 # The 'Gemfile' (no extension suffix) sits in the root directory of your repo.
@@ -75,21 +75,21 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 # 
 # To upgrade your version of the 'Gem Bundler' program ...
 # 
-# Type the following command at a local Terminal prompt,
+# Type either of the following command(s) at a local Terminal prompt, as follows:
 #
-# or,
-# 
 # gem update bundler: 2.2.23
 #
 # or,
-#
+# 
 # gem install bundler:1.16.1
 #
-# or,
+# Or, 
+# 
+# Type the following command at a global Terminal prompt, as follows:
 #
-# # bundle update --bundler
-#
-# It is not necessary to install the 'Gem Bundler' program every time you create a separate repo. 
+# bundle update --bundler
+# 
+# Note. It is not necessary to install the 'Gem Bundler' program every time you create a separate repo. 
 #
 # To instantiate an instance of the 'Jekyll server' on your development machine ...
 #
@@ -241,7 +241,7 @@ gem 'activesupport', '6.0.3.1'
 #
 gem 'github-pages-health-check', '1.17.2'
 #
-gem 'github-pages', '215'
+gem 'github-pages', '217'
 #
 # Note. The `github-markdown` dependency is no longer
 # designated at the online GitHub Pages dependency chart
@@ -252,11 +252,6 @@ gem 'i18n', '0.9.5'
 #
 # gem 'webrick', '1.7.0'
 gem 'webrick', '~> 1.7.0'
-#
-# Note. The `github-markdown` dependency is no longer
-# designated at the online GitHub Pages dependency chart
-# C=> https://pages.github.com/versions/
-# gem 'github-markdown'
 #
 gem 'html-pipeline', '2.14.0'
 #
@@ -315,6 +310,7 @@ gem 'liquid', '4.0.3'
 gem 'minima', '2.5.1'
 #
 # gem 'nokogiri', '1.10.10'
+# gem 'nokogiri', '1.11.2'
 # gem 'nokogiri', '>= 1.11.4'
 gem 'nokogiri', '1.11.7'
 #
