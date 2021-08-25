@@ -4,7 +4,7 @@ layout: default
 excerpt: Place the introducing line of text ie.) the 'tagline' here ...
 hint: Place the intro paragraph ie.) the 'hypothesis' here ...
 repo: Elixir-Lessons-Project
-ver_date: 08-24-21
+ver_date: 08-25-21
 navigation_weight: 8
 categories: page
 ---
