@@ -1,5 +1,5 @@
 # 
-# Template Dtd 08-05-21 
+# Template Dtd 08-25-21 
 # 
 # See http://help.github.com/ignore-files/ for more about ignoring files
 #
@@ -48,10 +48,6 @@ Generated\ Files/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 #
-# NUNIT
-*.VisualState.xml
-TestResult.xml
-#
 # Build Results of an ATL Project
 [Dd]ebugPS/
 [Rr]eleasePS/
@@ -71,12 +67,6 @@ erl_crash.dump
 *.beam
 /config/*.secret.exs
 .elixir_ls/
-#
-# .NET Core
-project.lock.json
-project.fragment.lock.json
-artifacts/
-**/Properties/launchSettings.json
 #
 # StyleCop
 StyleCopReport.xml

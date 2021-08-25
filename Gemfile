@@ -4,7 +4,7 @@
 # frozen_string_literal: true
 #
 source "https://rubygems.org"
-#
+# 
 # Script by Parker C=> https://byparker.com/blog/2014/stay-up-to-date-with-the-latest-github-pages-gem/
 # require 'json'
 # require 'open-uri'
@@ -12,8 +12,6 @@ source "https://rubygems.org"
 # gem 'github-pages', versions['github-pages']
 # ruby versions["ruby"]
 #
-# ruby "2.6.3"
-# ruby "2.7.2"
 # ruby "2.7.3"
 # ruby "3.0.1"
 ruby "3.0.2"
@@ -50,7 +48,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 #
 # Note. The current version of `Bundler` is: 2.2.16
 #
-# However, the working version for most of the repos here is: 1.16.1
+# However, the working version for most of the repos here is (was): 1.16.1
 #
 # gem install bundler
 #
@@ -197,9 +195,17 @@ gem 'jekyll-docs', '3.9.0'
 #
 # To start a local 'Jekyll server' instance ...
 #
-# Open up the /docs directory of your repo from inside Visual Studio Code from the Terminal prompt, as follows:
+# For satellite repos that do use the `docs` subdirectory to run GitHub pages ...
+#
+# Note. Open up the /docs directory of your repo from inside Visual Studio Code from the Terminal prompt, as follows:
 #
 # cd docs
+#
+# For main repos that do NOT use the `docs` subdirectory to run GitHub pages ...
+#
+# Note. Open up the /root directory of your repo from inside Visual Studio Code for a Terminal prompt, as follows:
+#
+# Terminal: New Terminal
 #
 # Next, type the following command at the 'Integrated Terminal View' of Visual Studio Code:
 #
@@ -292,7 +298,7 @@ gem 'jekyll-sitemap', '1.4.0'
 #
 gem 'jekyll-swiss', '1.0.0'
 #
-# Uncomment for all satellite repos
+# Uncomment for all satellite repos (this is a "satellite" repo)
 gem 'jekyll-theme-cayman', '0.1.1'
 #
 gem 'jekyll-titles-from-headings', '0.5.3'
